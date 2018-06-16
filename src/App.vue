@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <Events/>
+    <Big />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
 import Events from './components/event'
+import Big from './components/slots/big'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Events
+    Events,
+    Big
   }
 }
 </script>
